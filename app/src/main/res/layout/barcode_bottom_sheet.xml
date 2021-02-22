@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/barcode_bottom_sheet_padding_vertical"
+    android:paddingBottom="@dimen/barcode_bottom_sheet_padding_vertical"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:id="@+id/vendor_container"
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:gravity="center_horizontal"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/room_name"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/radio_group"
+        android:checkedButton="@+id/time_in"
+        android:orientation="horizontal">
+      <RadioButton
+          android:id="@+id/time_in"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+          android:text="Time In"/>
+      <RadioButton
+          android:id="@+id/time_out"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+          android:text="Time Out"/>
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_attendance"
+        android:text="SEND"
+        android:layout_marginBottom="4dp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+  </LinearLayout>
+
+  <TextView
+      android:visibility="gone"
+      android:layout_margin="12dp"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:id="@+id/vendor_error"
+      android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+</LinearLayout>

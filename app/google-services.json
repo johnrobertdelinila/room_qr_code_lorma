@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "848028256107",
+    "firebase_url": "https://barcodes-ml-kit.firebaseio.com",
+    "project_id": "barcodes-ml-kit",
+    "storage_bucket": "barcodes-ml-kit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848028256107:android:f82160819adbaa6b",
+        "android_client_info": {
+          "package_name": "com.example.johnrobertdelinila.roomqrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848028256107-ugfjg98eoef77svvqdu587u1pj7mjhsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.johnrobertdelinila.roomqrcode",
+            "certificate_hash": "a8dd5c2b34b7d6b494d6a5c056556734b413eb26"
+          }
+        },
+        {
+          "client_id": "848028256107-ptgptdlc9ssbs34i08mmr0oqd9upsbek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDSZRH98pb-JQ1_sUxu4b6jmKpvE5Uync"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848028256107-ptgptdlc9ssbs34i08mmr0oqd9upsbek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

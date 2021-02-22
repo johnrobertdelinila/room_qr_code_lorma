@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:targetApi="o">
+    <item
+        android:id="@+id/my_scans"
+        android:icon="@drawable/my_scans_icon"
+        android:title="My Scans"
+        android:tooltipText="Account"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="false"
+        android:checkable="false"
+        android:iconTint="@color/transparent"
+        android:title=""
+        android:tooltipText=""
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile"
+        android:tooltipText="More"
+        app:showAsAction="always" />
+</menu>
